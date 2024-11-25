@@ -1,5 +1,28 @@
-# Vue 3 + TypeScript + Vite
+# Компонент: Дерево папок с модальным окном
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Этот проект реализует Vue 3 компонент, который позволяет отображать дерево папок внутри модального окна. Он поддерживает раскрытие и сворачивание узлов дерева, выделение одной папки, а также передачу идентификатора выбранной папки.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+---
+
+## Установка и запуск проекта
+
+Проект был создан с использованием [Vue 3](https://vuejs.org/) и [Vite](https://vitejs.dev/). Для запуска выполните следующие шаги:
+
+### 1. Клонирование репозитория
+
+```bash
+git clone <URL вашего репозитория>
+cd <название_папки>
+```
+
+### Установка зависимостей
+## Убедитесь, что у вас установлен Node.js (рекомендуемая версия: LTS). Затем выполните команду:
+
+```bash
+npm install
+```
+
+### Запуск приложения в режиме разработки
+```bash
+npm run dev
+```
